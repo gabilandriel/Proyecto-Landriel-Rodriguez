@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('nueva_plantilla.php');
+        return view('quienes-somos.php');
     }
 }
