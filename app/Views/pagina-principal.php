@@ -242,30 +242,30 @@
   <div class="row g-4">
   <div class="col-12 col-md-6 border-0 position-relative">
       <div class="card bg-dark text-white border-0">
-        <img src="assets/img/tarjetaBasquet.jpg" class="card-img" alt="Zapatilla 1">
+        <img src="assets/img/tarjetaBasquet.jpg" class="card-img" alt="Basquét">
         <div class="card-img-overlay d-flex flex-column justify-content-end">
           <h5 class="card-title">Basquét</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="card bg-dark text-white border-0">
+    <div class="col-12 col-md-6">
+    <div class="card bg-dark text-white border-0 position-relative">
         <img src="assets/img/tarjetaFutbol.jpg" class="card-img" alt="Zapatilla 2">
         <div class="card-img-overlay d-flex flex-column justify-content-end">
           <h5 class="card-title">Futbol</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="card bg-dark text-white border-0">
+    <div class="col-12 col-md-6">
+    <div class="card bg-dark text-white border-0 position-relative">
         <img src="assets/img/tarjetaPadel.jpg" class="card-img" alt="Zapatilla 3">
         <div class="card-img-overlay d-flex flex-column justify-content-end">
           <h5 class="card-title">Padel</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="card bg-dark text-white border-0">
+    <div class="col-12 col-md-6">
+    <div class="card bg-dark text-white border-0 position-relative">
         <img src="assets/img/tarjetaRunning.jpg" class="card-img" alt="Zapatilla 4">
         <div class="card-img-overlay d-flex flex-column justify-content-end">
           <h5 class="card-title">Running</h5>
@@ -274,6 +274,38 @@
     </div>
   </div>
 </div>
+
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-12 col-md-3">
+        <h6 class="fw-bold">BUSCA LOCALES CERCA</h6>
+        <p><a href="#" class="text-white text-decoration-none">REGISTRATE</a></p>
+      </div>
+      <div class="col-12 col-md-2">
+        <h6 class="fw-bold">AYUDA</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-white-50 text-decoration-none">Comercialización</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Información de contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-2">
+        <h6 class="fw-bold">SOBRE NOSOTROS</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-white-50 text-decoration-none">Quienes somos</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Términos y usos</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 text-md-end">
+        <a href="#"><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
+        <a href="#"><i class="bi bi-facebook text-white fs-5 me-3"></i></a>
+        <a href="#"><i class="bi bi-youtube text-white fs-5 me-3"></i></a>
+        <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 

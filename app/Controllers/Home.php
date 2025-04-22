@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('terminos-y-condiciones.php');
+        return view('pagina-principal.php');
     }
 }
