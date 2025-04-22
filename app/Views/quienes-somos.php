@@ -124,7 +124,7 @@
                 <a href="#">Accesorios</a>
               </div>
               <div class="dropdown-column">
-                <h6>Basquet</h6>
+                <h6>Basquét</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
@@ -155,7 +155,7 @@
                 <a href="#">Accesorios</a>
               </div>
               <div class="dropdown-column">
-                <h6>Basquet</h6>
+                <h6>Basquét</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
@@ -186,7 +186,7 @@
                 <a href="#">Accesorios</a>
               </div>
               <div class="dropdown-column">
-                <h6>Basquet</h6>
+                <h6>Basquét</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
