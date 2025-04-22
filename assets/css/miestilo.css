@@ -1,9 +1,178 @@
-.justificado{
-    text-align: justify;
-}
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+
+header {
+    z-index: 1000;
+}
+
+header input.form-control {
+    background-color: #222;
+    border: 1px solid #555;
+    color: white;
+}
+
+header input::placeholder {
+    color: #bbb;
+}
+
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffffcc;
+    text-decoration: underline;
+}
+
+.sidebar-menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.sidebar-menu li {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.sidebar-menu li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.logo-vs {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 8px; 
+}
+  
+.logo-vs:hover {
+    transform: scale(1.1) rotate(-3deg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+}
+  
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.custom-dropdown {
+    position: relative;
+  }
+
+  .custom-dropdown .custom-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra sutil */
+    z-index: 1000;
+    border-radius: 4px;
+    padding: 10px 0;
+  }
+
+  .custom-dropdown:hover .custom-menu {
+    display: block;
+  }
+
+  .custom-menu .dropdown-item {
+    padding: 10px 20px;
+    color: #212529;
+    text-decoration: none;
+    display: block;
+  }
+
+  .custom-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+    font-weight: 500;
+  }
+
+  .logo-vs {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4)); /* sombra suave para destacar */
+  }
+  
+  /* Dropdown de ancho completo */
+.navbar .custom-dropdown {
+    position: static; /* permite que el dropdown ocupe toda la pantalla */
+  }
+  
+  .navbar .custom-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ddd;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    z-index: 1000;
+  }
+  
+  .navbar .custom-dropdown:hover .custom-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Estilo de columnas dentro del dropdown */
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 150px;
+  }
+  
+  .dropdown-column h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .dropdown-column a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    transition: 0.2s ease;
+  }
+  
+  .dropdown-column a:hover {
+    color: #000;
+    font-weight: 500;
   }
   
