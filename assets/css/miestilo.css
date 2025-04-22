@@ -82,13 +82,13 @@ html {
 
   .custom-dropdown .custom-menu {
     display: none;
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     min-width: 200px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra sutil */
-    z-index: 1000;
+    z-index: 1050;
     border-radius: 4px;
     padding: 10px 0;
   }
@@ -148,6 +148,11 @@ html {
     visibility: visible;
     transform: translateY(0);
   }
+
+  .nav-link.dropdown-toggle {
+    padding-bottom: 20px;
+  }
+  
   
   /* Estilo de columnas dentro del dropdown */
   .dropdown-column {
