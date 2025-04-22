@@ -7,33 +7,69 @@
         <link href="assets/css/miestilo.css" rel="stylesheet" >
     </head>
     <body>
-        <div class= "justificado" >
-        <section id="comercializacion">
-    <h3>COMERCIALIZACION</h3>
-    <p>
-     en <em>vibeSports</em> tiene como objetivo brindar al usuario toda la información necesaria para concretar su compra de manera segura, rápida y eficiente. Nuestro compromiso es asegurar una experiencia de compra clara y confiable, poniendo a disposición del cliente todas las opciones disponibles en cuanto a entregas, envíos y formas de pago.
-     </p>
+        <section class="container my-5">
+            <h1 class="text-center mb-4">Comercialización</h1>
+            <div class="row mb-4">
+                <div class="col-md-12">
+                <div class="card p-4 shadow-sm">
+                    <p>
+                    En <strong>vibeSports</strong> tenemos como objetivo brindar al usuario toda la información necesaria para concretar su compra de manera segura, rápida y eficiente.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <!-- Tipos de Entrega -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3">
+                <div class="card h-100 p-3 text-center shadow-sm">
+                    <img src="assets/img/icono-tienda.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
+                    <h5 class="fw-bold">Retiro en Tienda</h5>
+                    <p class="text-muted">Podés retirar sin costo en nuestras sucursales oficiales.</p>
+                </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                <div class="card h-100 p-3 text-center shadow-sm">
+                    <img src="assets/img/icono-casa.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
+                    <h5 class="fw-bold">Envío a Domicilio</h5>
+                    <p class="text-muted">Recibí tus productos en casa con logística segura.</p>
+                </div>
+                </div>
+            </div>
 
-    <H4>TIPOS DE ENTREGA</H4>
-    <p>
-    <em>vibeSports</em> ofrece dos modalidades: retiro en punto de venta y envío a domicilio. El retiro en punto de venta permite al cliente retirar su pedido en nuestras sucursales oficiales sin costo adicional, ideal para quienes prefieren tener el producto cuanto antes o evitar costos de envío. Por otro lado, el envío a domicilio se realiza a través de empresas logísticas reconocidas, garantizando que el pedido llegue en tiempo y forma a cualquier parte del país.
-    </p>
+            <!-- Formas de Envíos -->
+            <div class="card p-4 shadow-sm mb-4">
+                <h4 class="mb-3">Formas de Envío</h4>
+                <ul>
+                <li><strong>Envío estándar:</strong> 3 a 7 días hábiles (dependiendo de la zona geográfica.).</li>
+                <li><strong>Envío express:</strong> Hasta 48hs hábiles (ideal para compras urgentes o regalos de último momento.).</li>
+                </ul>
+            </div>
 
-    <H4>FORMAS DE ENVIO</H4>
-    <p>
-    El cliente podrá elegir entre envío estándar y envío express. El envío estándar tiene un plazo de entrega de 3 a 7 días hábiles, dependiendo de la zona geográfica. En cambio, el envío express garantiza la entrega en un máximo de 48 horas hábiles, ideal para compras urgentes o regalos de último momento.
-    </p>
+            <!-- Métodos de Pago -->
+            <div class="card p-4 shadow-sm mb-4">
+                <h4 class="mb-3">Métodos de Pago</h4>
+                <div class="row text-center">
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="assets/img/logo-visa.jpg" class="img-fluid" style="width: 60px;">
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="assets/img/logo-mercado pago.jpg" class="img-fluid" style="width: 60px;">
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="assets\img\logo-uala.jpg" class="img-fluid" style="width: 60px;">
+                </div>
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="assets/img/logo-pago facil.jpg" class="img-fluid" style="width: 60px;">
+                </div>
+                </div>
+            </div>
 
-    <H4>METODOS DE PAGO</H4>
-    <p>
-    <em>vibeSports</em> ofrece múltiples formas de pago. Se aceptan tarjetas de crédito y débito de todas las entidades bancarias, pagos mediante billeteras virtuales como Mercado Pago o Ualá, transferencias bancarias, y también pagos en efectivo a través de redes como Pago Fácil o Rapipago. Además, se brinda la posibilidad de acceder a promociones bancarias con cuotas sin interés en productos seleccionados.
-    </p>
-
-    <H4>INFORMACION COMPLEMENTARIA</H4>
-    <p>
-    Esta sección también incluye información útil para el cliente: políticas de cambios y devoluciones, garantías de productos, atención al cliente y seguimiento de pedidos. Todo está diseñado para generar confianza en el usuario y guiarlo durante todo el proceso de compra.
-    En <em>vibeSports</em>, entendemos que cada visitante es un potencial cliente. Por eso, esta sección es clave para acompañarlo desde el primer interés hasta concretar su compra con total
-    </P>
-</div>
-
-<body>
+            <!-- Información Complementaria -->
+            <div class="card p-4 shadow-sm">
+                <h4>Información Complementaria</h4>
+                <p>
+                Políticas de cambios y devoluciones, atención al cliente, garantías y seguimiento de pedidos.
+                </p>
+            </div>
+</section>
+</body>
