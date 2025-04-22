@@ -81,20 +81,25 @@ html {
   }
 
   .custom-dropdown .custom-menu {
-    display: none;
-    position: relative;
+    position: absolute;
     top: 100%;
     left: 0;
-    min-width: 200px;
+    right: 0;
+    width: 100vw;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra sutil */
-    z-index: 1050;
-    border-radius: 4px;
-    padding: 10px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px 60px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    z-index: 1000;
   }
 
   .custom-dropdown:hover .custom-menu {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 
   .custom-menu .dropdown-item {
@@ -112,6 +117,14 @@ html {
     color: white;
     padding: 10px 15px;
     font-weight: 500;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ffffffcc;
+    text-decoration: underline;
   }
 
   .logo-vs {
