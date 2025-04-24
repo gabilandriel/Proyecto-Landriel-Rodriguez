@@ -22,14 +22,14 @@
             <div class="row mb-4">
                 <div class="col-md-6 mb-3">
                 <div class="card h-100 p-3 text-center shadow-sm">
-                    <img src="assets/img/icono-tienda.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
+                    <img src="assets/img/icono-tienda.jpg" class="img-fluid rounded mb-2" style="max-width: 80px; height: auto;" alt="">
                     <h5 class="fw-bold">Retiro en Tienda</h5>
                     <p class="text-muted">Podés retirar sin costo en nuestras sucursales oficiales.</p>
                 </div>
                 </div>
                 <div class="col-md-6 mb-3">
                 <div class="card h-100 p-3 text-center shadow-sm">
-                    <img src="assets/img/icono-casa.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
+                    <img src="assets/img/icono-casa.jpg" class="img-fluid rounded mb-2" style="max-width: 80px; height: auto;" alt="">
                     <h5 class="fw-bold">Envío a Domicilio</h5>
                     <p class="text-muted">Recibí tus productos en casa con logística segura.</p>
                 </div>
@@ -50,16 +50,16 @@
                 <h4 class="mb-3">Métodos de Pago</h4>
                 <div class="row text-center">
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-visa.jpg" class="img-fluid" style="width: 60px;">
+                    <img src="assets/img/logo-visa.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-mercado pago.jpg" class="img-fluid" style="width: 60px;">
+                    <img src="assets/img/logo-mercado pago.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="assets\img\logo-uala.jpg" class="img-fluid" style="width: 60px;">
+                    <img src="assets\img\logo-uala.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-pago facil.jpg" class="img-fluid" style="width: 60px;">
+                    <img src="assets/img/logo-pago facil.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 </div>
             </div>

@@ -106,7 +106,7 @@
           <a class="nav-link dropdown-toggle" href="#">Hombres</a>
             <div class="custom-menu">
               <div class="dropdown-column">
-                <h6>Futbol</h6>
+                <h6>Fútbol</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
@@ -137,7 +137,7 @@
           <a class="nav-link dropdown-toggle" href="#">Mujeres</a>
             <div class="custom-menu">
               <div class="dropdown-column">
-                <h6>Futbol</h6>
+                <h6>Fútbol</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
@@ -168,7 +168,7 @@
           <a class="nav-link dropdown-toggle" href="#">Infantiles</a>
             <div class="custom-menu">
               <div class="dropdown-column">
-                <h6>Futbol</h6>
+                <h6>Fútbol</h6>
                 <a href="#">Vestimentas</a>
                 <a href="#">Calzado</a>
                 <a href="#">Accesorios</a>
@@ -238,7 +238,7 @@
     </button>
   </div>
 
-  <div class="container mt-5">
+  <div class="container mt-5 mb-7">
   <div class="row g-4">
   <div class="col-12 col-md-6 border-0 position-relative">
       <div class="card bg-dark text-white border-0">
@@ -252,7 +252,7 @@
     <div class="card bg-dark text-white border-0 position-relative">
         <img src="assets/img/tarjetaFutbol.jpg" class="card-img" alt="Zapatilla 2">
         <div class="card-img-overlay d-flex flex-column justify-content-end">
-          <h5 class="card-title">Futbol</h5>
+          <h5 class="card-title">Fútbol</h5>
         </div>
       </div>
     </div>
@@ -275,7 +275,7 @@
   </div>
 </div>
 
-<footer class="bg-dark text-white py-5">
+<footer class="bg-dark text-white py-5 mt-5">
   <div class="container">
     <div class="row gy-4">
       <div class="col-12 col-md-3">
