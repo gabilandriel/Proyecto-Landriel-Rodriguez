@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
-<<html lang="es">
+
+<!DOCTYPE html>
+<html lang="es">
 <head>
 
     <meta charset="utf-8">
@@ -85,10 +86,22 @@
     font-weight: 500;
   }
   
+  .contact-form {
+            position: fixed;
+            bottom: 210px;
+            left: 20px;
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            z-index: 9999;
+}
   </style>
 
+
 </head>
-<style>
+    <style>
     .justificado {
       text-align: justify;
     }
@@ -226,70 +239,47 @@
   </nav>
 </header>
 
-    <body>
-        <section class="container my-5">
-            <h1 class="text-center mb-4">Comercialización</h1>
-            <div class="row mb-4">
-                <div class="col-md-12">
-                <div class="card p-4 shadow-sm">
-                    <p>
-                    En <strong>vibeSports</strong> tenemos como objetivo brindar al usuario toda la información necesaria para concretar su compra de manera segura, rápida y eficiente.
-                    </p>
-                </div>
-                </div>
-            </div>
-            <!-- Tipos de Entrega -->
-            <div class="row mb-4">
-                <div class="col-md-6 mb-3">
-                <div class="card h-100 p-3 text-center shadow-sm">
-                    <img src="assets/img/icono-tienda.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
-                    <h5 class="fw-bold">Retiro en Tienda</h5>
-                    <p class="text-muted">Podés retirar sin costo en nuestras sucursales oficiales.</p>
-                </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                <div class="card h-100 p-3 text-center shadow-sm">
-                    <img src="assets/img/icono-casa.jpg" class="img-fluid rounded mb-2" style="width: 80px;" alt="">
-                    <h5 class="fw-bold">Envío a Domicilio</h5>
-                    <p class="text-muted">Recibí tus productos en casa con logística segura.</p>
-                </div>
-                </div>
-            </div>
+</style>
+</head>
+<body>
+    <div style="display: flex; align-items: stretch; gap: 40px; padding: 20px;">
+  <div style="flex: 1;">
+        <h2>INFORMACION DE CONTACTO</h2>
+        <p>¡Te podés comunicar con nosotros de Lunes a Domingo de 9 a 21 hrs!</p>
+        <p><strong>Titular de la empresa:</strong> Landriel Gabriel, Rodriguez Lucas<br>
+        </p>
+        <strong>Razón social:</strong> Comercio Web S.A.<br>
+        <p>
+        <strong>Domicilio legal:</strong> Paraguay 1054, Corrientes, Argentina
+        </p>
+        Escribinos por Whatsapp al <a href="https://wa.me/543731620377">+54 3731620377</a> <br>
+        También podés llamarnos al +54 3731443472.<br>
+        Si querés mandar un mail hacé <a href="mailto:vS.contacto@gmail.com">click acá</a>.<br>
+     </div>
 
-            <!-- Formas de Envíos -->
-            <div class="card p-4 shadow-sm mb-4">
-                <h4 class="mb-3">Formas de Envío</h4>
-                <ul>
-                <li><strong>Envío estándar:</strong> 3 a 7 días hábiles (dependiendo de la zona geográfica.).</li>
-                <li><strong>Envío express:</strong> Hasta 48hs hábiles (ideal para compras urgentes o regalos de último momento.).</li>
-                </ul>
-            </div>
+     <div class="contact-form">
+        <h4>COMUNICATE CON NOSOTROS DIRECTAMENTE</h4>
+        <form action="#" method="post">
+            <input type="text" placeholder="Tu nombre" required><br>
+            <input type="email" placeholder="Tu email" required><br>
+            <textarea placeholder="Tu mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+  </body>
 
-            <!-- Métodos de Pago -->
-            <div class="card p-4 shadow-sm mb-4">
-                <h4 class="mb-3">Métodos de Pago</h4>
-                <div class="row text-center">
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-visa.jpg" class="img-fluid" style="width: 60px;">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-mercado pago.jpg" class="img-fluid" style="width: 60px;">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="assets\img\logo-uala.jpg" class="img-fluid" style="width: 60px;">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="assets/img/logo-pago facil.jpg" class="img-fluid" style="width: 60px;">
-                </div>
-                </div>
-            </div>
-
-            <!-- Información Complementaria -->
-            <div class="card p-4 shadow-sm">
-                <h4>Información Complementaria</h4>
-                <p>
-                Políticas de cambios y devoluciones, atención al cliente, garantías y seguimiento de pedidos.
-                </p>
-            </div>
-</section>
-</body>
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: flex-start;">
+  <h3>¡Pasá por nuestro local!</h3>
+  <p>¡Te esperamos en nuestro local físico!</p>
+  
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.5288027406196!2d-58.84051862368882!3d-27.467734115672807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450ce6fa3a3c7f%3A0x4099dd7797a99713!2sParaguay%201054%2C%20W3400%20Corrientes!5e0!3m2!1ses!2sar!4v1714059098451!5m2!1ses!2sar" 
+        width="600" 
+        height="400" 
+        style="border:0; border-radius: 10px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+   </div>
+</html>
