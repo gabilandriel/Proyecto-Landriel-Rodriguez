@@ -16,7 +16,7 @@
             <div class="col-md-4">
                 <h2>INFORMACION DE CONTACTO</h2>
                 <p>¡Te podés comunicar con nosotros de Lunes a Domingo de 9 a 21 hrs!</p>
-                <p><strong>Titular de la empresa:</strong> Landriel Gabriel, Rodriguez Lucas<br></p>
+                <p><strong>Titulares de la empresa:</strong> Landriel Gabriel, Rodriguez Lucas<br></p>
                 <strong>Razón social:</strong> Comercio Web S.A.<br>
                 <p><strong>Domicilio legal:</strong> Paraguay 1054, Corrientes, Argentina</p>
                 Escribinos por Whatsapp al <a href="https://wa.me/543731620377">+54 3731620377</a> <br>
@@ -52,9 +52,7 @@
             </div>
         </div>
     </div>
-
-    <?= view('templates/footer.php') ?>
-
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <?= view('templates/footer.php') ?>
 </body>
 </html>

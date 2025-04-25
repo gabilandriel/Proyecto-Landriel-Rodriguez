@@ -18,9 +18,15 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
     
 }
-
+footer {
+  margin-bottom: 0;
+  margin-top: auto;
+}
 .custom-menu {
   width: 100%;
 }
@@ -99,7 +105,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+footer.py-5 { /* Especificamos que solo afecte al footer con la clase .py-5 */
+  padding-bottom: 5rem !important; /* Usamos !important para asegurar la prioridad sobre Bootstrap */
+}
 .custom-dropdown {
     position: relative;
   }
