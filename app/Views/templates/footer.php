@@ -10,7 +10,7 @@
         <h6 class="fw-bold">AYUDA</h6>
         <ul class="list-unstyled small">
           <li><a href="<?= base_url('comercializacion') ?>" class="text-white-50 text-decoration-none">Comercialización</a></li>
-          <li><a href="#" class="text-white-50 text-decoration-none">Información de contacto</a></li>
+          <li><a href="<?= base_url('informacion-de-contacto') ?>" class="text-white-50 text-decoration-none">Información de contacto</a></li>
         </ul>
       </div>
       <div class="col-12 col-md-2">
