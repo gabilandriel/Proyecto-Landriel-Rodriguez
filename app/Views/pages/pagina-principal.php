@@ -7,29 +7,22 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/miestilo.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <style>
-    body {
-  margin: 0;
-}
-  </style>
 </head>
 <body>
-
-<?= view('templates/header') ?>
-
+  <?= view('templates/header.php') ?>
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="assets\img\fondoRunning1.jpg" class="d-block w-100" alt="Slide 1">
+        <img src="assets/img/fondoRunning1.jpg" class="d-block w-100" alt="Slide 1">
       </div>
       <div class="carousel-item">
         <img src="assets/img/fondoBasquet2.jpg" class="d-block w-100" alt="Slide 2">
       </div>
       <div class="carousel-item">
-        <img src="assets\img\fondoFutbol3.jpg" class="d-block w-100" alt="Slide 3">
+        <img src="assets/img/fondoFutbol3.jpg" class="d-block w-100" alt="Slide 3">
       </div>
       <div class="carousel-item">
-        <img src="assets\img\fondoPadel2.jpg" class="d-block w-100" alt="Slide 3">
+        <img src="assets/img/fondoPadel2.jpg" class="d-block w-100" alt="Slide 3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">

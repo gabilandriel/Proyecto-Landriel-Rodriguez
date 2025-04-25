@@ -21,7 +21,7 @@
         </ul>
       </div>
       <div class="col-12 col-md-3 text-md-end">
-        <a href=""><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
+        <a href="#"><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
         <a href="#"><i class="bi bi-facebook text-white fs-5 me-3"></i></a>
         <a href="#"><i class="bi bi-youtube text-white fs-5 me-3"></i></a>
         <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>

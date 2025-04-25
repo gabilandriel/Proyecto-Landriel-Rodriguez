@@ -1,7 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin: 0;
+    overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
 }
 
 .justificado {
@@ -10,7 +26,10 @@ body {
 
 
 header {
-    z-index: 1000;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  background-color: transparent; /* Esto asegura que no haya un color de fondo blanco */
 }
 
 header input.form-control {
@@ -85,7 +104,7 @@ html {
     top: 100%;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 30px 60px;
@@ -141,7 +160,7 @@ html {
     top: 100%;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     border-top: 1px solid #ddd;
@@ -166,6 +185,14 @@ html {
     padding-bottom: 20px;
   }
   
+  .nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar.sticky-top {
+  top: 0 !important; 
+}
+
   
   /* Estilo de columnas dentro del dropdown */
   .dropdown-column {

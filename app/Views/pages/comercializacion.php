@@ -62,7 +62,7 @@
                     <img src="assets/img/logo-mercado pago.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="assets\img\logo-uala.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
+                    <img src="assets/img/logo-uala.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
                     <img src="assets/img/logo-pago facil.jpg" class="img-fluid" style="max-width: 60px; height: auto;">
