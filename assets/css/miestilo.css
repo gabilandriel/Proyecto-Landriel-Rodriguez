@@ -263,13 +263,26 @@ html {
   }
   
   .contact-form {
-    position: fixed;
-    bottom: 210px;
-    left: 20px;
+    bottom: auto;
+    left: auto;
     background-color: #f8f9fa;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    width: auto;
     z-index: 9999;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 75%; /* Ajusta la proporción según necesites (alto / ancho * 100) */
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
