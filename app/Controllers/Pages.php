@@ -23,4 +23,9 @@ class Pages extends BaseController
     {
         return view('pages/terminos-y-usos');
     }
+
+    public function informacion_de_contacto()
+    {
+        return view('pages/informacion-de-contacto');
+    }
 }
