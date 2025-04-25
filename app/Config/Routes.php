@@ -1,8 +1,15 @@
-<?php
+<<?php
 
 use CodeIgniter\Router\RouteCollection;
 
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+
+$routes->get('/', 'Pages::index');
+
+$routes->get('/comercializacion', 'Pages::comercializacion');
+$routes->get('/quienes-somos', 'Pages::quienes_somos');
+$routes->get('/terminos-y-usos', 'Pages::terminos_y_usos');
+
+$routes->setDefaultController('Pages');
