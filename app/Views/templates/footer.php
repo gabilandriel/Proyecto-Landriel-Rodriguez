@@ -1,4 +1,3 @@
-
 <footer class="bg-dark text-white py-5 mt-5">
   <div class="container">
     <div class="row gy-4">
@@ -20,11 +19,16 @@
           <li><a href="<?= base_url('terminos-y-usos') ?>" class="text-white-50 text-decoration-none">Términos y usos</a></li>
         </ul>
       </div>
-      <div class="col-12 col-md-3 text-md-end">
-        <a href="#"><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
-        <a href="#"><i class="bi bi-facebook text-white fs-5 me-3"></i></a>
-        <a href="#"><i class="bi bi-youtube text-white fs-5 me-3"></i></a>
-        <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
+      <div class="col-12 col-md-5 text-center text-md-end">
+        <div class="mb-2">
+          <a href="#"><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
+          <a href="#"><i class="bi bi-facebook text-white fs-5 me-3"></i></a>
+          <a href="#"><i class="bi bi-youtube text-white fs-5 me-3"></i></a>
+          <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
+        </div>
+        <div>
+          <h4 class="fw-bold text-white m-0">vibe<span class="fw-light">Sports</span></h4>
+        </div>
       </div>
     </div>
   </div>
