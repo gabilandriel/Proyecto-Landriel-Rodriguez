@@ -8,13 +8,7 @@
   <link href="assets/css/miestilo.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-<style>
-    .justificado {
-      text-align: justify;
-    }
-  </style>
-
-    <body class= "bgbg-white text-dark">
+<body class= "bgbg-white text-dark">
 
     <?= view('templates/header') ?>
 
