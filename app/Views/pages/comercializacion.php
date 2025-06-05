@@ -70,13 +70,6 @@
                 </div>
             </div>
 
-            <!-- Información Complementaria -->
-            <div class="card p-4 shadow-sm">
-                <h4>Información Complementaria</h4>
-                <p>
-                Políticas de cambios y devoluciones, atención al cliente, garantías y seguimiento de pedidos.
-                </p>
-            </div>
 </section>
 
     <?= view('templates/footer.php') ?>

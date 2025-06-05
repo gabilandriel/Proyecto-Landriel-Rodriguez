@@ -30,10 +30,17 @@
         </ul>
       </div>
 
-      <!-- Botón Carrito (desktop y móvil) -->
-      <a href="#carrito" class="btn btn-outline-light ms-3">
-        <i class="bi bi-cart3"></i>
+      
+      <!-- Botones Carrito y Login (desktop y móvil) -->
+      <div class="d-flex align-items-center">
+          <a href="#carrito" class="btn btn-outline-light ms-3">
+          <i class="bi bi-cart3"></i>
+        </a>
+          <a href="<?= base_url('login') ?>" class="btn btn-outline-light ms-2">
+          <i class="bi bi-person-fill"></i>
       </a>
+</div>
+
 
     </div>
   </nav>

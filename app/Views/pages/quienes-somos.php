@@ -24,29 +24,26 @@
             Nos esforzamos por ofrecer atención personalizada, productos de calidad y un servicio postventa que acompañe al cliente en cada paso de su experiencia con nosotros.
         </p>
         <p>
-            Atte.<br>
-            Landriel, Gabriel <br>
-            Rodriguez, Lucas.
-        </p>
-     </div>
+          <div class="row text-center mt-5">
+              <div class="col-md-6">
+              <img src="assets/img/fotoGabi.jpg" alt="Gabriel Landriel" class="img-fluid rounded-circle mb-2" style="max-width: 200px;">
+              <h6>Gabriel Landriel</h6>
+              <p class="text-muted">CEO vibeSports</p>
+              <p class="mb-1"><i class="bi bi-envelope-fill"></i> gabilandriel07@gmail.com</p>
+              <p><i class="bi bi-instagram"></i> @gabilandriel07</p>
+          </div>
+              <div class="col-md-6">
+              <img src="assets/img/fotoLucas.jpg" alt="Lucas Joel Rodriguez" class="img-fluid rounded-circle mb-2" style="max-width: 200px;">
+            <h6>Lucas Joel Rodriguez</h6>
+              <p class="text-muted">CEO vibeSports</p>
+              <p class="mb-1"><i class="bi bi-envelope-fill"></i> lucasjrodriguez02@gmail.com</p>
+              <p><i class="bi bi-instagram"></i> @lucasrodriguez02</p>
+       </div>
+  </div>
+
+
     </section>
 
-    <footer class="py-4 bg-white text-dark">
-  <div class="container mt-5 text-center">
-    <h5 class="mb-3">Staff de la página</h5>
-    <p class="mb-1">
-      <i class="bi bi-envelope-fill"></i> lucasjrodriguez02@gmail.com
-    </p>
-    <p class="mb-1">
-      <i class="bi bi-envelope-fill"></i> gabilandriel07@gmail.com
-    </p>
-    <p class="mb-1">
-      <i class="bi bi-instagram"></i> @lucasrodriguez02
-    </p>
-    <p>
-      <i class="bi bi-instagram"></i> @gabilandriel07
-    </p>
-  </div>
 </footer>
 
     <?= view('templates/footer.php') ?>
