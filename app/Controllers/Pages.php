@@ -28,4 +28,9 @@ class Pages extends BaseController
     {
         return view('pages/informacion-de-contacto');
     }
+
+    public function login()
+    {
+        return view('back/login/login');
+    }
 }

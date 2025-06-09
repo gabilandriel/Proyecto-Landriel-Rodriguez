@@ -39,7 +39,7 @@
           <a href="<?= base_url('login') ?>" class="btn btn-outline-light ms-2">
           <i class="bi bi-person-fill"></i>
       </a>
-</div>
+      </div>
 
 
     </div>
