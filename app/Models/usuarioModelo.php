@@ -3,11 +3,20 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class UsuarioModel extends Model
+class usuarioModelo extends Model
 {
-    protected $table = 'usuarios';
+    protected $table = 'usuario';
     protected $primaryKey = 'id_usuario';
     protected $allowedFields = [
-        'id_persona', 'id_rol', 'nombre_usuario', 'pass_usuario', 'baja'
+        'id_usuario', 
+        'id_rol', 
+        'nombre', 
+        'apellido', 
+        'dni', 
+        'direccion',
+        'nombre_usuario', 
+        'pass_usuario', 
+        'baja'
     ];
+    protected $useSoftDeletes = false;
 }

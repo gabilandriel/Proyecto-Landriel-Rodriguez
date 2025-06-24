@@ -3,11 +3,11 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class UsuarioModel extends Model
+class facturaModelo extends Model
 {
     protected $table = 'factura';
     protected $primaryKey = 'id_factura';
     protected $allowedFields = [
-        'id_factura', 'id_usuario', 'importe_total', 'descuento', 'baja'
+        'id_factura', 'id_usuario','fecha', 'importe_total', 'baja'
     ];
 }   

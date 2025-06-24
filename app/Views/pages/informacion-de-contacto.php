@@ -27,20 +27,19 @@
             <div class="col-md-4 mt-4 mt-md-0">
                 <div class="contact-form">
                     <h4>COMUNICATE CON NOSOTROS DIRECTAMENTE</h4>
-
-                    <!-- Contenedor de alerta -->
-                    <div id="formAlert" class="alert alert-success d-none" role="alert">
-                    ¡Se envió el formulario correctamente!
-                    </div>
-
-                    <form id="contactForm">
-                    <input type="text" class="form-control mb-3" placeholder="Tu nombre" required><br>
-                    <input type="email" class="form-control mb-3" placeholder="Tu email" required><br>
-                    <textarea class="form-control mb-3" placeholder="Tu mensaje" rows="4" required></textarea><br>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <?php if (session()->getFlashdata('mensaje')): ?>
+                        <div class="alert alert-success">
+                            <?= session()->getFlashdata('mensaje') ?>
+                        </div>
+                    <?php endif; ?>
+                    <form method="post" action="<?= base_url('consultas/guardar') ?>">
+                        <input type="text" name="nombre" class="form-control mb-3" placeholder="Tu nombre" required> 
+                        <input type="email" name="correo" class="form-control mb-3" placeholder="Tu email" required> 
+                        <textarea name="descripcion" class="form-control mb-3" placeholder="Tu mensaje" rows="4" required></textarea> 
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
-                </div>
+            </div>
 
 
             <div class="col-md-4 mt-4 mt-md-0">

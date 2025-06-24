@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 html, body {
     margin: 0;
     padding: 0; 
@@ -283,11 +281,6 @@ footer.py-5 { /* Especificamos que solo afecte al footer con la clase .py-5 */
     height: 600px;  
   }
   
-.card img {
-    width: auto;
-    height: auto;  
-    object-fit: cover;
-}
 
   .contact-form {
     bottom: auto;

@@ -31,6 +31,22 @@ class Pages extends BaseController
 
     public function login()
     {
-        return view('back/login/login');
+        return view('pages/login');
     }
+
+    public function registro()
+    {
+        return view('pages/registro');
+    }
+
+    public function panel()
+    {
+        return view('pages/panel');
+    }
+
+    public function catalogo()
+    {
+        return view('pages/catalogo');
+    }
+
 }

@@ -1,50 +1,22 @@
 <?php
 
-namespace App\Controllers;
-use App\Models\UsuarioModel;
-use CodeIgniter\Controller;
+namespace App\Filters;
 
-class Auth extends Controller
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
+use CodeIgniter\Filters\FilterInterface;
+
+class Auth implements FilterInterface
 {
-    public function login()
+    public function before(RequestInterface $request, $arguments = null)
     {
-        helper(['form']);
-        return view('auth/login');
-    }
-
-    public function loginPost()
-    {
-        helper(['form']);
-        $session = session();
-        $model = new UsuarioModel();
-
-        $nombre_usuario = $this->request->getPost('nombre_usuario');
-        $pass_usuario = $this->request->getPost('pass_usuario');
-
-        $usuario = $model->where('nombre_usuario', $nombre_usuario)
-                         ->where('baja', 'NO')
-                         ->first();
-
-        if ($usuario) {
-            if (password_verify($pass_usuario, $usuario['pass_usuario'])) {
-                $session->set([
-                    'id_usuario' => $usuario['id_usuario'],
-                    'nombre_usuario' => $usuario['nombre_usuario'],
-                    'id_rol' => $usuario['id_rol'],
-                    'isLoggedIn' => true
-                ]);
-                return redirect()->to('/'); // redirecciona donde quieras
-            } else {
-                return redirect()->back()->with('error', 'Contraseña incorrecta');
-            }
-        } else {
-            return redirect()->back()->with('error', 'Usuario no encontrado o dado de baja');
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login')->with('msg', 'Por favor, iniciá sesión.');
         }
     }
 
-    public function logout()
+    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
-        session()->destroy();
-        return redirect()->to('/login');
+
     }
 }

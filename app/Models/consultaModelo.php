@@ -3,11 +3,11 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class ConsultaModelo extends Model
+class consultaModelo extends Model
 {
     protected $table = 'consulta';
     protected $primaryKey = 'id_consulta';
     protected $allowedFields = [
-        'id_consulta', 'id_persona', 'descripcion', 'baja'
+        'id_consulta', 'nombre','correo', 'descripcion', 'baja'
     ];
 }
