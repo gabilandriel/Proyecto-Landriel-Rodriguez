@@ -33,6 +33,11 @@
     <body> 
         <?= view('templates/header') ?> 
         <div class="container content-container"> 
+            <div class="mb-3"> 
+                <a href="<?= base_url('panel/admin') ?>" class="btn btn-outline-dark"> 
+                    <i class="bi bi-arrow-left-circle me-1"></i> Volver al panel 
+                </a> 
+            </div> 
             <div class="d-flex justify-content-between align-items-center mb-4"> 
                 <h3>
                     <i class="bi bi-box-seam me-2"></i>
