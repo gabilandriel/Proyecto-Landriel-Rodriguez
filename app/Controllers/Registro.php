@@ -28,7 +28,7 @@ class Registro extends BaseController
         if ($nombre === '' || $apellido === '' || $nombre_usuario === '' || $dni === '' || $direccion === '') {
             return redirect()->back()->withInput()->with('error', 'Los campos no pueden estar vacíos ni contener solo espacios.');
         }
-        // También podés agregar validaciones de longitud mínima
+        // Validaciones de longitud mínima
         if (strlen($nombre_usuario) < 3) {
             return redirect()->back()->withInput()->with('error', 'El nombre de usuario debe tener al menos 3 caracteres.');
         }
