@@ -31,10 +31,11 @@ class Login_controller extends BaseController
             }
             if ($clave === $pass) {
                 $ses_data = [
-                    'id_usuario'      => $datos['id_usuario'],
-                    'id_rol'          => $datos['id_rol'],
-                    'nombre_usuario'  => $datos['nombre_usuario'],
-                    'logged_in'       => true,
+                    'id_usuario' => $datos['id_usuario'],
+                    'id_rol' => $datos['id_rol'],
+                    'rol' => $datos['id_rol'] == 1 ? 'admin' : 'cliente',
+                    'nombre_usuario' => $datos['nombre_usuario'],
+                    'logged_in' => true,
                 ];
 
                 $session->set($ses_data);

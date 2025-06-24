@@ -256,8 +256,7 @@
                   </a>
                   <div class="card-body text-center">
                     <h5 class="card-title">Camiseta <strong>Hornets</strong> 24/25 - Lamelo Ball</h5>
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p>
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p>
+                    <p class="text-muted  mb-1">$50.000</p>
                   </div>
                 </div>
               </div>
@@ -271,8 +270,7 @@
                   </a>
                   <div class="card-body text-center">
                     <h5 class="card-title">Botines <strong>Adidas F50 Messi "Leyenda"</strong> 24 - Lionel Messi</h5>
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p>
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p>
+                    <p class="text-muted  mb-1">$100.000</p>
                   </div>
                 </div>
               </div>
@@ -286,8 +284,7 @@
                 </a>
                   <div class="card-body text-center">
                     <h5 class="card-title">Paleta <strong>Adidas Metalbone HDR</strong> 23 - Alejandro Galán</h5>
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p>
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p>
+                    <p class="text-muted  mb-1">$400.000</p>
                   </div>
                 </div>
               </div>
@@ -307,8 +304,7 @@
                   </a>
                   <div class="card-body text-center">
                     <h5 class="card-title">Camiseta <strong>FC Barcelona Local</strong> 24/25 - Lamine Yamal</h5>
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p>
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p>
+                    <p class="text-muted  mb-1">$83.000</p>
                   </div>
                 </div>
               </div>
@@ -322,8 +318,7 @@
                   </a> 
                   <div class="card-body text-center"> 
                     <h5 class="card-title">Zapatillas <strong>Nike Kyrie 3</strong> 16 - Kyrie Irving</h5> 
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p> 
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p> 
+                    <p class="text-muted  mb-1">$400.000</p> 
                   </div> 
                 </div>
               </div>  
@@ -337,8 +332,7 @@
                   </a>
                     <div class="card-body text-center">
                     <h5 class="card-title">Zapatillas <strong>Nike Herren Vaporfly 4</strong> 17 - Eliud Kipchoge</h5>
-                    <p class="text-muted text-decoration-line-through mb-1">$***</p>
-                    <p class="fst-italic fw-bold text-danger">Próximamente</p>
+                    <p class="text-muted  mb-1">$90.000</p>
                   </div>
                 </div>
               </div>

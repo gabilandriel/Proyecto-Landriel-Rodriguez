@@ -16,14 +16,22 @@ class Registro extends BaseController
         $usuarioModelo = new UsuarioModelo();
 
         // Obtener campos del formulario
-        $nombre           = $this->request->getPost('nombre');
-        $apellido         = $this->request->getPost('apellido');
-        $dni              = $this->request->getPost('dni');
-        $direccion        = $this->request->getPost('direccion');
-        $nombre_usuario   = $this->request->getPost('nombre_usuario');
-        $pass             = $this->request->getPost('pass_usuario');
-        $confirmar_pass   = $this->request->getPost('confirmar_pass');
+        $nombre           = trim($this->request->getPost('nombre'));
+        $apellido         = trim($this->request->getPost('apellido'));
+        $dni              = trim($this->request->getPost('dni'));
+        $direccion        = trim($this->request->getPost('direccion'));
+        $nombre_usuario   = trim($this->request->getPost('nombre_usuario'));
+        $pass             = trim($this->request->getPost('pass_usuario'));
+        $confirmar_pass   = trim($this->request->getPost('confirmar_pass'));
 
+        // Validar campos vacíos después de trim
+        if ($nombre === '' || $apellido === '' || $nombre_usuario === '' || $dni === '' || $direccion === '') {
+            return redirect()->back()->withInput()->with('error', 'Los campos no pueden estar vacíos ni contener solo espacios.');
+        }
+        // También podés agregar validaciones de longitud mínima
+        if (strlen($nombre_usuario) < 3) {
+            return redirect()->back()->withInput()->with('error', 'El nombre de usuario debe tener al menos 3 caracteres.');
+        }
         // Validaciones
         if ($pass !== $confirmar_pass) {
             return redirect()->back()->with('error', 'Las contraseñas no coinciden.');

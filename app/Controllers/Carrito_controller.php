@@ -188,7 +188,10 @@ class Carrito_controller extends BaseController
 
         $session->remove('carrito');
 
-        return redirect()->to('/panel/cliente-compras')->with('mensaje', 'Compra finalizada correctamente.');
-
+        if (session('rol') === 'admin') {
+            return redirect()->to('/admin/historial-compras')->with('mensaje', 'Compra finalizada correctamente.');
+        } else {
+            return redirect()->to('/panel/cliente-compras')->with('mensaje', 'Compra finalizada correctamente.');
+        }
     }
 }  

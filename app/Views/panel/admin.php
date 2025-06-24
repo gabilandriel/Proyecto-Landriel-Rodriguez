@@ -21,7 +21,7 @@
         </a>
         <a href="<?= base_url('admin/usuarios') ?>" class="list-group-item list-group-item-action">Gestionar Usuarios</a>
         <a href="<?= base_url('admin/consultas') ?>" class="list-group-item list-group-item-action">Gestionar Consultas</a>
-        <a href="#" class="list-group-item list-group-item-action">Gestionar Productos</a>
+        <a href="<?= base_url('admin/productos') ?>" class="list-group-item list-group-item-action">Gestionar Productos</a>
         <a href="<?= base_url('admin/historial-compras') ?>" class="list-group-item list-group-item-action"> Historial de compras </a>
       </div>
     </div>

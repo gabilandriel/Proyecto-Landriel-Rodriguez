@@ -16,7 +16,8 @@ class Catalogo_controller extends BaseController {
         $query = $productoModel
             ->select('producto.*, categoria.nombre as categoria')
             ->join('categoria', 'producto.id_categoria = categoria.id_categoria')
-            ->where('producto.baja', 'NO');
+            ->where('producto.baja', 'NO')
+            ->where('producto.cantidad >', 0);
 
         if (!empty($categoriaSeleccionada) && is_array($categoriaSeleccionada)) {
             $query->whereIn('producto.id_categoria', $categoriaSeleccionada);
@@ -40,6 +41,7 @@ class Catalogo_controller extends BaseController {
             ->join('categoria', 'producto.id_categoria = categoria.id_categoria')
             ->where('producto.id_categoria', $id_categoria)
             ->where('producto.baja', 'NO')
+            ->where('producto.cantidad >', 0)
             ->findAll();
 
         // Obtener nombre de la categoría

@@ -65,5 +65,16 @@ $routes->get('/carrito/factura/pdf/(:num)', 'Carrito_controller::generarPDF/$1')
 // Factura
 $routes->get('/factura/pdf/(:num)', 'Factura_controller::generarPDF/$1');
 
+// Productos
+$routes->group('admin/productos', ['filter' => 'auth'], function($routes) { 
+    $routes->get('/', 'Producto_controller::index'); 
+    $routes->get('crear', 'Producto_controller::crear'); 
+    $routes->post('guardar', 'Producto_controller::guardar'); 
+    $routes->get('editar/(:num)', 'Producto_controller::editar/$1'); 
+    $routes->post('actualizar/(:num)', 'Producto_controller::actualizar/$1');
+    $routes->get('baja/(:num)', 'Producto_controller::baja/$1'); 
+    $routes->get('reactivar/(:num)', 'Producto_controller::reactivar/$1'); 
+    $routes->get('bajas', 'Producto_controller::bajas'); 
+});
 // Controlador por defecto 
 $routes->setDefaultController('Views'); 
