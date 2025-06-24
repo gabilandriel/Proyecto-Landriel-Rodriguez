@@ -17,7 +17,6 @@
         justify-content: center;
         overflow: hidden;
         }
-
         .img-fit {
           max-width: 100%;
           max-height: 100%;

@@ -278,7 +278,9 @@ footer.py-5 { /* Especificamos que solo afecte al footer con la clase .py-5 */
 
   .tarjetas .card img{
     width: 100%;
-    height: 600px;  
+    height: 600px;
+    object-fit: cover;
+  object-position: center;  
   }
   
 
