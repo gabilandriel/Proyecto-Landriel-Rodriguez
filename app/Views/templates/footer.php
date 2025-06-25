@@ -32,12 +32,6 @@
 
       <!-- REDES + MARCA -->
       <div class="col-12 col-md-4 text-center text-md-end">
-        <div class="mb-2">
-          <a href="#"><i class="bi bi-twitter text-white fs-5 me-3"></i></a>
-          <a href="#"><i class="bi bi-facebook text-white fs-5 me-3"></i></a>
-          <a href="#"><i class="bi bi-youtube text-white fs-5 me-3"></i></a>
-          <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
-        </div>
         <h4 class="fw-bold text-white m-0">vibe<span class="fw-light">Sports</span></h4>
         <small class="text-white-50">© 2025 vibeSports. Todos los derechos reservados.</small>
       </div>
