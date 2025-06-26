@@ -40,6 +40,8 @@ class Login_controller extends BaseController
 
                 $session->set($ses_data);
                 $session->setFlashdata('msg', 'Bienvenido ' . $datos['nombre_usuario']);
+                // Cargar carrito desde la base de datos
+                (new \App\Controllers\Carrito_controller())->cargarDesdeDB();
 
                 return redirect()->to('/');
             } else {
@@ -55,8 +57,10 @@ class Login_controller extends BaseController
     public function logout()
     {
         $session = session();
+        (new \App\Controllers\Carrito_controller())->guardarEnDB();
         $session->destroy();
         return redirect()->to('/');
     }
+
 }
 

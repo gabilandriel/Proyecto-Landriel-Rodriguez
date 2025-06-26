@@ -26,7 +26,7 @@
 
             <div class="col-md-4 mt-4 mt-md-0">
                 <div class="contact-form">
-                    <h4>COMUNICATE CON NOSOTROS DIRECTAMENTE</h4>
+                    <h4>CONSULTAS DIRECTAS CON VIBESPORTS</h4>
                     <?php if (session()->getFlashdata('mensaje')): ?>
                         <div class="alert alert-success">
                             <?= session()->getFlashdata('mensaje') ?>
